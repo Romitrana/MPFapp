@@ -15,14 +15,16 @@
   }
   
   .report-form-header p {
-    color: var(--text-secondary);
+    color: #081160;
   }
   
   .report-form {
-    background-color: white;
+    color: var(--primary-color);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
     padding: 2rem;
+    background-color: #081160;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
   }
   
   .form-section {
@@ -38,9 +40,9 @@
   }
   
   .form-section h2 {
-    font-size: 1.25rem;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: var(--text-primary);
+    color: var(--primary-color);
   }
   
   .form-row {

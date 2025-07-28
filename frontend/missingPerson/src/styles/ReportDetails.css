@@ -17,16 +17,16 @@
   }
   
   .report-id {
-    color: var(--text-secondary);
     font-size: 0.875rem;
     margin: 0;
   }
   
   .report-details-content {
-    background-color: white;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
     padding: 2rem;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+    background-color: #102030;
     margin-bottom: 2rem;
   }
   
@@ -45,7 +45,7 @@
   .details-section h2 {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
-    color: var(--text-primary);
+    color: var(--primary-color);
   }
   
   .details-grid {
@@ -68,6 +68,7 @@
   
   .detail-value {
     font-size: 1rem;
+    color: aliceblue;
   }
   
   .details-cards {
